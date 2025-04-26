@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click_Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="counter-container">
+        <label for="counter">Click here to increase count: </label> <br><br>
+        <button onclick="inccount()">Click Here</button><br><br>
+        <h3 id="count">0</h3>
+    </div>
+
+    <script>
+        let count = 0;
+        function inccount() {
+            count++;
+            document.getElementById("count").textContent = "You have clicked: " + count + " times.";
+        }
+    </script>
+</body>
+</html>
