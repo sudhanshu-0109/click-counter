@@ -1,11 +1,11 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
     height: 100vh;
     background: linear-gradient(135deg, #74ebd5, #acb6e5);
@@ -15,7 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Counter container */
+
 .counter-container {
     background: white;
     padding: 3rem;
@@ -25,20 +25,19 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect on container */
+
 .counter-container:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* Label styling */
 .counter-container label {
     font-size: 1.5rem;
     font-weight: 600;
     color: #555;
 }
 
-/* Button styling */
+
 .counter-container button {
     margin-top: 20px;
     padding: 0.8rem 2rem;
@@ -52,13 +51,13 @@ body {
     transition: background 0.3s, transform 0.2s;
 }
 
-/* Button hover effect */
+
 .counter-container button:hover {
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     transform: scale(1.05);
 }
 
-/* Count display styling */
+
 #count {
     margin-top: 20px;
     font-size: 1.5rem;
@@ -68,7 +67,7 @@ body {
     animation: fadeInUp 0.5s forwards;
 }
 
-/* Animation for count */
+
 @keyframes fadeInUp {
     to {
         opacity: 1;
